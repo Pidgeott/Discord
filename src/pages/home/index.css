@@ -1,0 +1,675 @@
+
+body
+{
+    background-color: #f6f6f6;
+}
+
+
+
+.secao-01
+{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding: 25px 0px 120px 0px;
+    background-image: url(../../assets/images/fundo03.svg);
+    background-size: cover;
+    background-color: #404eed;
+    color: #fff;
+    background-position: -430px 0px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.s01-tenis
+{
+    position: absolute;
+    bottom: 0px;
+    left: -180px;
+}
+
+.s01-suco
+{
+    position: absolute;
+    bottom: 0px;
+    right: -100px;
+}
+
+.s01-cabecalho
+{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+
+    margin-bottom: 140px;
+}
+
+.s01-cabecalho > a
+{
+    font: 14px Font3;
+    background-color: #fff;
+    color: #23272a;
+    padding: 10px 14px;
+    border-radius: 30px;
+    margin: 0px 10px;
+}
+
+
+.s01-cabecalho > a:hover 
+{
+    box-shadow: 0 8px 20px rgb(0 0 0 / 20%);
+    color: #5865f2;
+    transition: 0.3s;
+}
+
+.secao-01 > h1
+{
+    font: 56px Font1;
+    width: 500px;
+    text-align: center;
+    line-height: 45px;
+
+    margin-bottom: 20px;
+}
+
+.secao-01 > p
+{
+    font: 20px Font2;
+    width: 780px;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+.s01-menu
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.s01-menu a 
+{
+    font: 16px Font4;
+    margin: 5px 20px;
+
+}
+
+.s01-menu > a:hover
+{
+    text-decoration: underline;
+}
+
+.s01-botoes
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.s01-botoes > a
+{
+    font: 20px Font3;
+    background-color: #fff;
+    color: #23272a;
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin: 0px 10px;
+    transition: 0.2s;
+    display: flex;
+    align-items: center; 
+}
+
+.s01-botoes > a:hover
+{
+    box-shadow: 0 8px 20px rgb(0 0 0 / 20%);
+    color: #5865f2;
+    
+}
+
+.secao-01 a 
+{
+    cursor: pointer;
+    
+}
+
+.s01-botao-escuro
+{
+    background-color: #23272a !important;
+    color: #fff !important;
+}
+
+.s01-botao-escuro :hover
+{
+    background-color: rgb(46, 46, 46) !important;
+}
+
+.s01-botoes > a > svg
+{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+.secao-02
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 110px 0px;
+    background-color: #fff;
+}
+
+.s02-textos
+{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+}
+
+.s02-textos h1
+{
+    font: 50px Font5;
+    color: #23272a;
+    line-height: 60px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.s02-textos p
+{
+    font: 21px Font2;
+    color: #23272a;
+    line-height: 26px;
+    margin-bottom: 0px;
+}
+
+.secao-02 >*
+{
+    margin: 0px 50px;
+
+}
+
+
+
+
+
+
+
+.secao-03
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 110px 0px;
+    background-color: #f6f6f6;
+}
+
+.s03-textos
+{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.s03-textos h1
+{
+    font: 50px Font5;
+    color: #23272a;
+    line-height: 60px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.s03-textos p
+{
+    font: 21px Font2;
+    color: #23272a;
+    line-height: 26px;
+    margin-bottom: 0px;
+}
+
+.secao-03 >*
+{
+    margin: 0px 50px;
+
+}
+
+
+
+
+
+
+
+.secao-04
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 110px 0px;
+    background-color: #fff;
+}
+
+.s04-textos
+{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.s04-textos h1
+{
+    font: 50px Font5;
+    color: #23272a;
+    line-height: 60px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.s04-textos p
+{
+    font: 21px Font2;
+    color: #23272a;
+    line-height: 26px;
+    margin-bottom: 0px;
+}
+
+.secao-04 >*
+{
+    margin: 0px 50px;
+
+}
+
+
+
+
+
+
+
+.secao-05
+{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 110px 0px;
+    background-color: #f6f6f6;
+}
+
+.s05-textos
+{
+    display: flex;
+    flex-direction: column;
+    width: 910px;
+    text-align: center;
+}
+
+.s05-textos h1
+{
+    font: 50px Font6;
+    color: #23272a;
+    line-height: 60px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-weight: 400px;
+}
+
+.s05-textos > p
+{
+    font: 20px Font2;
+    color: #23272a;
+    line-height: 26px;
+    margin-bottom: 0px;
+
+}
+
+.secao-05 >*
+{
+    margin: 0px 50px;
+
+}
+
+
+
+
+
+
+
+.secao-06
+{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0px 0px;
+    background-color: #f6f6f6;
+
+    margin-top: -100px;
+}
+
+.s06-textos
+{
+    display: flex;
+    flex-direction: column;
+    width: 910px;
+    text-align: center;
+    
+}
+
+.s06-textos h1
+{
+    font: 50px Font6;
+    color: #23272a;
+    line-height: 60px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-weight: 400px;
+}
+
+.s06-botoes
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.s06-botoes > a
+{
+    font: 20px Font3;
+    background-color: #5865f2;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 0px 10px;
+    transition: 0.2s;
+    display: flex;
+    align-items: center; 
+    margin-top: 15px;
+}
+
+.s06-botoes > a > svg
+{
+    margin-right: 10px;
+}
+
+.s06-botoes > a:hover
+{
+    box-shadow: 0 8px 20px rgb(0 0 0 / 20%);
+    color: #f6f6f6;
+    
+}
+
+.secao-06 >*
+{
+    margin: 0px 50px;
+
+}
+
+
+
+
+
+
+
+.secao-07
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    background-color: #23272a;
+    padding: 3px;
+    margin-top: 100px;
+    
+}
+
+.s07-titulo-social-midia
+{
+    margin-top: 100px;
+    margin-left: 70px;
+    
+    
+
+}
+
+.s07-texto-titulo
+{
+    font: 16px Font1;
+    color: #404eed;
+    width: 300px;
+    margin-left: 150px;
+    margin-top: -50px;
+}
+
+.s07-escolha-idioma
+{
+    font: 10px Font4;
+    color: #fff;
+    margin-left: 150px;
+    flex-direction: row;
+    margin-top: 0px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.s07-escolha-idioma > h2
+{
+    margin-left: 10px;
+
+}
+img.flag-brazil
+{
+    margin-top: 3px;
+    width: 24px;
+    height: 16px;
+
+}
+
+img.arrow-down
+{
+    margin-top: 6px;
+    margin-left: 10px;
+    width: 7px;
+    height: 7px;
+}
+
+.s07-social-midia
+{
+    color: #fff;
+    display: flex;
+    margin-left: 27px;
+    margin-top: -50px;
+    align-items: flex-start;
+    padding: 93px;
+    justify-content: space-evenly;
+}
+
+.s07-lists
+{
+    margin-top: -50px;
+    
+}
+
+.s07-lists > div  
+{
+    color: #fff;
+    display: flex;
+    font: 17px Font2;
+    flex-direction: row ;
+    justify-content: center;
+    margin-left: -70px;
+}
+
+.s07-lists > div > a
+{
+    padding-bottom: 10px;
+    
+
+}
+
+
+
+.s07-product 
+{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-between;
+    padding-left: 225px;
+    margin-top: 130px;
+
+
+}
+
+.s07-product > a:hover:not(.produto)
+{
+    text-decoration: underline;
+}
+
+.s07-enterprise > a:hover:not(.empresa)
+{
+    text-decoration: underline;
+}
+.s07-resources > a:hover:not(.recursos)
+{
+    text-decoration: underline;
+}
+.s07-politics > a:hover:not(.politica)
+{
+    text-decoration: underline;
+}
+
+.produto
+{
+    color: #5865f2;
+    margin-bottom: 10px;
+    
+    
+}
+
+
+.s07-enterprise 
+{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-between;
+}
+
+.empresa
+{
+    color: #5865f2;
+    margin-bottom: 10px;
+
+
+}
+
+.s07-resources 
+{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-evenly;
+    padding-left: 675px;
+    margin-top: -173px;
+}
+
+.recursos
+{
+    color: #5865f2;
+    margin-bottom: 10px;
+
+
+}
+
+.s07-politics 
+{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-between;
+    padding-left: 900px;
+    margin-top: -330px;
+}
+
+
+.politica
+{
+    color: #5865f2;
+    margin-bottom: 10px;
+
+
+}
+.s07-enterprise
+{
+    display: flex;
+    flex-direction: column !important;
+    padding-left: 450px;
+    margin-top: -140px;
+}
+
+.secao-08
+{
+    width: 100%;
+    background-color: #23272a;
+    padding: 50px;
+    
+}
+
+
+.s08-botao-registrar
+{
+    display: flex;
+    flex-direction: row;
+    padding-left: 88%;
+    padding-top: 100px;
+    margin-bottom: -66px;
+}
+
+.s08-botao-registrar > a
+{
+    font: 14px Font3;
+    background-color: #5865f2;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 30px;
+    margin: 0px 10px;
+    transition: 0.2s;
+    display: flex;
+    align-items: center; 
+}
+
+.s08-botao-registrar > a:hover
+{
+    box-shadow: 0 8px 20px rgba(201, 86, 86, 0.2);
+    color: #fff;
+    
+}
+
+
+.discord-logo
+{
+    color: #fff;
+    padding-left: 155px;
+    
+    margin-top: -30px;
+    
+}
+
+.linha
+{
+    background-color: #5865f2;
+    width: 85%;
+    height: 1px;
+    margin-bottom: 60px;
+    vertical-align: baseline;
+    margin-left: 155px;
+}
